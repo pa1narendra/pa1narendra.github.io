@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
-    <span className="flex justify-center my-5 backdrop-blur-lg sticky">
-      <div className=" bg-gray-400 w-1/2 rounded-xl flex flex-row justify-between items-center px-4">
+    <span className="sticky top-[30px] flex justify-center  z-1">
+      <div className="bg-gray-300 w-1/2 rounded-xl backdrop-blur-sm flex flex-row justify-between items-center px-4">
         <a className="text-3xl font-bold text-blue-50" href="/">
           Pavan
         </a>

@@ -1,7 +1,6 @@
-import Demo from "./Components/Demo";
 import NavBar from "./Components/NavBar";
 
-import Hero from "./Hero";
+import Hero from "./Components/Hero";
 import "./index.css";
 
 const App = () => {
@@ -9,7 +8,6 @@ const App = () => {
     <div className="">
       <NavBar />
       <Hero />
-      <Demo />
     </div>
   );
 };

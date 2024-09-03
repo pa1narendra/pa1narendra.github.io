@@ -7,3 +7,11 @@
 ```
 https://blog.olivierlarose.com/demos
 ```
+
+
+Social Profiles  -->  menu
+
+projects --->  cards parallax
+
+About section ---> Paint reveal
+

@@ -24,10 +24,35 @@ function Cursor() {
       });
     };
 
-    window.addEventListener("mousemove", mouseMove);
+    const textEnter = () => setCursorVariant("text");
+    const textLeave = () => setCursorVariant("default");
 
+    window.addEventListener("mousemove", mouseMove);
+    document.querySelectorAll("h1, h2").forEach((el) => {
+      el.addEventListener("mouseenter", textEnter);
+      el.addEventListener("mouseleave", textLeave);
+    });
+
+    // Make cursor normal on the navbar
+    const navBar = document.querySelector(".navbar");
+    const handleMouseEnter = () => setCursorVariant("default");
+    const handleMouseLeave = () => setCursorVariant("default");
+
+    if (navBar) {
+      navBar.addEventListener("mouseenter", handleMouseEnter);
+      navBar.addEventListener("mouseleave", handleMouseLeave);
+    }
     return () => {
       window.removeEventListener("mousemove", mouseMove);
+      document.querySelectorAll("h1, h2").forEach((el) => {
+        el.removeEventListener("mouseenter", textEnter);
+        el.removeEventListener("mouseleave", textLeave);
+      });
+
+      if (navBar) {
+        navBar.removeEventListener("mouseenter", textLeave);
+        navBar.removeEventListener("mouseleave", textLeave);
+      }
     };
   }, []);
 
@@ -46,14 +71,9 @@ function Cursor() {
     },
   };
 
-  const textEnter = () => setCursorVariant("text");
-  const textLeave = () => setCursorVariant("default");
-
   return (
     <div className="App">
-      <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className="title">
-        Pavan Narendra
-      </h1>
+      <h1 className="title">Pavan Narendra</h1>
       <motion.div
         className="cursor"
         variants={variants}

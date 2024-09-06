@@ -1,9 +1,11 @@
-import React from "react";
-
 const About = () => {
   return (
     <div id="about">
-      <h1 className="text-8xl color">ABOUT</h1>
+      <p className="text-center text-xl">
+        I am a Software Engineer. I do a lot of experiments and explore a lot of
+        fields. I am a part time coder.Few of my interests are chess, badminton,
+        gossips, etc
+      </p>
     </div>
   );
 };

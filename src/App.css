@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #c0f85f;
+  background: #222;
 }
 
 .title {
@@ -16,7 +16,7 @@
 }
 
 .cursor {
-  background-color: #333;
+  background-color: #ccc;
   height: 60px;
   width: 60px;
   border-radius: 50%;

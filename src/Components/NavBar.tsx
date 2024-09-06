@@ -1,12 +1,13 @@
 import Hero from "./Hero";
 import "../App.css";
+import About from "./About";
 // import {motion,Variants} from 'framer-motion';
 
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar sticky top-[30px] flex justify-center z-10">
-        <div className="bg-opacity-10 bg-black w-3/4 md:w-1/2 rounded-xl backdrop-blur-md flex flex-row justify-between items-center px-6">
+        <div className="bg-opacity-10 bg-gray-50 w-3/4 md:w-1/2 rounded-xl backdrop-blur-md flex flex-row justify-between items-center px-6">
           <a className="text-3xl font-bold text-blue-700" href="/">
             Pavan
           </a>
@@ -35,6 +36,9 @@ const NavBar = () => {
       </nav>
       <div>
         <Hero />
+      </div>
+      <div>
+        <About />
       </div>
     </div>
   );

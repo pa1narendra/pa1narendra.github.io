@@ -73,7 +73,9 @@ function Cursor() {
 
   return (
     <div className="App">
-      <h1 className="title">Pavan Narendra</h1>
+      <h1 className="title " style={{ fontFamily: "Playpen Sans" }}>
+        Pavan Narendra
+      </h1>
       <motion.div
         className="cursor"
         variants={variants}

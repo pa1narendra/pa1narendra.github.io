@@ -1,6 +1,6 @@
-// import Hero from "./Hero";
+import Hero from "./Hero";
 import "../App.css";
-// import About from "./About";
+import About from "./About";
 
 const NavBar = () => {
   return (
@@ -33,12 +33,12 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {/* <div>
+      <div>
         <Hero />
       </div>
       <div>
         <About />
-      </div> */}
+      </div>
     </div>
   );
 };

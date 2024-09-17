@@ -72,7 +72,7 @@ function Cursor() {
   };
 
   return (
-    <div className="App">
+    <div className="App h-screen">
       <h1 className="title " style={{ fontFamily: "Playpen Sans" }}>
         Pavan Narendra
       </h1>

@@ -72,8 +72,11 @@ function Cursor() {
   };
 
   return (
-    <div className="App h-screen">
-      <h1 className="title " style={{ fontFamily: "Playpen Sans" }}>
+    <div className="App h-screen ">
+      <h1
+        className="title bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent font-bold"
+        style={{ fontFamily: "Playpen Sans" }}
+      >
         Pavan Narendra
       </h1>
       <motion.div

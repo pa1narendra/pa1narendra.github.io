@@ -9,7 +9,7 @@ const About = () => {
         a Software Engineer passionate about technology and innovation. Updating
         my skill library with new tech books and creative articles. Open to
         collaborate and discuss about any idea in our domain and build it and
-        bring it to live.
+        bring it to live. I play chess and badminton in my free time.
       </p>
     </div>
   );

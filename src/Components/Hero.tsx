@@ -74,7 +74,7 @@ function Cursor() {
   return (
     <div className="App h-screen ">
       <h1
-        className="title bg-gradient-to-r from-green-500 via-yellow-300 via-red-400 to-blue-500 to-purple-500 bg-clip-text text-transparent font-bold animate-gradient"
+        className="title bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent font-bold animate-gradient"
         style={{ fontFamily: "Playpen Sans" }}
       >
         Pavan Narendra

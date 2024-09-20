@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 
 * {
   cursor: none;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .App {

@@ -7,7 +7,7 @@ const Projects = () => {
       <h2 className="text-center">Here are few of my projects</h2>
       <div className="flex justify-center">
         <img src="" alt="" />
-        <p className="pro-description  leading-5 text-2xl w-1/2">
+        <p className="leading-5 text-2xl w-1/2">
           Fresh Meals is an Idea generated from the confusion we faced when we
           went to a new city and tried to have some food. There are several food
           items and many restaurants to choose from. We thought it would be nice

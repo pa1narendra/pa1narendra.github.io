@@ -11,8 +11,9 @@ const About = () => {
         </span>{" "}
         a Software Engineer passionate about technology and innovation. Updating
         my skill library with new tech books and creative articles. Open to
-        collaborate and discuss about any idea in our domain and build it and
-        bring it to live. I play chess and badminton in my free time.
+        collaborate and discuss about any idea in our domain, build it and bring
+        it to live.I play chess in order to get rid of stress but end up being
+        in more stress.
       </p>
     </div>
   );

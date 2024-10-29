@@ -1,6 +1,11 @@
+import { NavLink } from "react-router-dom";
+
 const About = () => {
   return (
-    <div id="about" className="h-screen flex justify-center items-center">
+    <div
+      id="about"
+      className="h-screen flex justify-center items-center flex-col gap-4"
+    >
       <p className=" text-3xl tracking-wider text-center w-1/2">
         Hi there , I am{" "}
         <span
@@ -12,7 +17,18 @@ const About = () => {
         a Software Engineer passionate about technology and innovation. Updating
         my skill library with new tech books and creative articles. Open to
         collaborate and discuss about any idea in our domain, build it and bring
-        it to live
+        it to live.
+      </p>
+      <p>
+        Click here to know more?
+        <NavLink to="/More">
+          {" "}
+          <span className="text-3xl">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              {"Click Me"}
+            </button>
+          </span>
+        </NavLink>
       </p>
     </div>
   );

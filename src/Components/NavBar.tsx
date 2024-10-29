@@ -2,7 +2,7 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <div className="navbar sticky top-[30px] flex justify-center z-1">
+    <div className="navbar sticky top-[30px] flex justify-center h-16 z-1">
       <div className="bg-opacity-10 bg-gray-400 w-3/4 md:w-1/2 rounded-xl backdrop-blur-md flex flex-row justify-between items-center px-6">
         <a className="text-3xl font-bold text-blue-700" href="#">
           Pavan

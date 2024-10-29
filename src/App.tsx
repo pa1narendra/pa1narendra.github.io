@@ -1,19 +1,13 @@
-import NavBar from "./Components/NavBar";
-// import LEDBoard from "./Components/LedBoard";
-import About from "./Components/About";
-import Hero from "./Components/Hero";
-import Projects from "./Components/Projects";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import More from "./Components/More";
 
 const App = () => {
   return (
-    <div className="bg-zinc-800 text-gray-50">
-      <NavBar />
-      <Hero />
-      <About />
-      {/* <LEDBoard word="Pavan Narendra" /> */}
-      <Projects />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/More" element={<More />} />
+    </Routes>
   );
 };
-
 export default App;

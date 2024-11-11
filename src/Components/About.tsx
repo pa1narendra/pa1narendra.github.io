@@ -21,14 +21,14 @@ const About = () => {
       </p>
       <p>
         Click here to know more?
-        <NavLink to="/More">
-          {" "}
-          <span className="text-3xl">
+        <span className="text-3xl">
+          <NavLink to="/More">
+            {" "}
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               {"Click Me"}
             </button>
-          </span>
-        </NavLink>
+          </NavLink>
+        </span>
       </p>
     </div>
   );

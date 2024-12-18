@@ -20,7 +20,7 @@ const About = () => {
         it to live.
       </p>
       <p>
-        Click here to know more?
+        Know more here
         <span className="text-3xl">
           <NavLink to="/More">
             {" "}

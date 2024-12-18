@@ -2,13 +2,13 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="h-screen "
+      className="h-screen"
     >
       <h2 className="text-center text-3xl mb-7">Here are few of my projects</h2>
       <div className="w-7/8 grid justify-center items-center grid-cols-2">
         <div className="flex justify-center p-10 gap-6">
           <img className="w-1/5 h-[200px]" src="" alt="" />
-          <p className=" text-xl w-1/3">
+          <p className="pro-description text-xl w-1/3">
             Fresh Meals is an Idea generated from the confusion we faced when we
             went to a new city and tried to have some food. There are several
             food items and many restaurants to choose from. We thought it would
